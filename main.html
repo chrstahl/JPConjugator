@@ -183,11 +183,11 @@ function showDiv() {
           pressure = e.touches[0]["force"]
         }
         x = e.touches[0].pageX * 2
-        y = e.touches[0].pageY * 2
+        y = e.touches[0].pageY
       } else {
         pressure = 1.0
         x = e.pageX * 2
-        y = e.pageY * 2
+        y = e.pageY
       }
       isMousedown = true
       // lineWidth = (pressure * 50 * 0.8 + lineWidth * 0.2)
@@ -212,11 +212,11 @@ function showDiv() {
           pressure = e.touches[0]["force"]
         }
         x = e.touches[0].pageX * 2
-        y = e.touches[0].pageY * 2
+        y = e.touches[0].pageY
       } else {
         pressure = 1.0
         x = e.pageX * 2
-        y = e.pageY * 2
+        y = e.pageY
       }
       lineWidth = (Math.log(pressure + 1) * 40 * 0.4 + lineWidth * 0.6)
       points.push({
@@ -252,11 +252,11 @@ function showDiv() {
           pressure = e.touches[0]["force"]
         }
         x = e.touches[0].pageX * 2
-        y = e.touches[0].pageY * 2
+        y = e.touches[0].pageY
       } else {
         pressure = 1.0
         x = e.pageX * 2
-        y = e.pageY * 2
+        y = e.pageY
       }
       isMousedown = false
       context.strokeStyle = 'black'
