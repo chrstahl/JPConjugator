@@ -3,10 +3,11 @@
 <body onload="conjugate();">
 <link rel="stylesheet" type="text/css" href="card.css" />
 <div class="card">
-  <div id="meaning" style="color:#569cd7" ></div>
+  <div id="meaning" style="color:#569cd7"></div>
   <br>
   <div id="question"  style="color:#569cd7"></div>
-  <input type="button" name="answer" value="Show Div" onclick="showDiv();" />
+  <br>
+  <input type="button" name="answer" value="Answer" onclick="showDiv();" />
   <div id ="answer" style="font-size:40px; color:#4ecab0; display:none;"></div>
   <input type="button" name="answer" value="Next" onclick="conjugate();" />
 </div>
@@ -26,6 +27,7 @@ var vocabulary = [{
 }]
 
 function conjugate(){
+  document.getElementById('answer').style.display = "None";
   var conjugation = ["Present", "Negative", "Past", "Past Negative"];   
   var random_conjugation = conjugation[Math.floor(Math.random() * conjugation.length)];
   var random_vocabulary = vocabulary[Math.floor(Math.random() * vocabulary.length)];
@@ -35,7 +37,7 @@ function conjugate(){
   var dictionary_form = random_vocabulary['dictionary_form'];
   var last_char = dictionary_form.substr(-1);
 
-  document.getElementById("question").innerTex = random_conjugation;
+  document.getElementById("question").innerText = random_conjugation;
   document.getElementById("meaning").innerText = meaning;
 
   if(random_vocabulary['part_of_speech'] = "verb"){
@@ -155,12 +157,13 @@ function conjugate(){
           }
         }
       }
-};
+	}
+}
     
-    function showDiv() {
-   		document.getElementById('answer').style.display = "block";
-	};
-  }
+function showDiv() {
+	document.getElementById('answer').style.display = "block";
+}
+  
 </script>
 </body>
 </html>
