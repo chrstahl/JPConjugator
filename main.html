@@ -4,7 +4,9 @@
   <div id="meaning" style="color:#569cd7" ></div>
   <br>
   <div id="question"  style="color:#569cd7"></div>
-  <div id ="answer" style="font-size:40px; color:#4ecab0; display:true;"></div>
+  <input type="button" name="answer" value="Show Div" onclick="showDiv()" />
+  <div id ="answer" style="font-size:40px; color:#4ecab0; display:none;"></div>
+  <input type="button" name="answer" value="Next" onclick="window.location.reload()" />
 
 </div>
 
@@ -16,7 +18,7 @@ var vocabulary = [{
 "meaning": "To eat"
 },
 {
-"dictionary_form": "飲む",
+"dictionary_form": "<ruby>飲<rt>の</rt></ruby>む",
 "part_of_speech": "verb",
 "type": "う",
 "meaning": "To drink"
@@ -31,7 +33,7 @@ var type = random_vocabulary['type'];
 var dictionary_form = random_vocabulary['dictionary_form'];
 var last_char = dictionary_form.substr(-1);
 
-document.getElementById("question").innerText = random_conjugation;
+document.getElementById("question").innerTex = random_conjugation;
 document.getElementById("meaning").innerText = meaning;
 
 if(random_vocabulary['part_of_speech'] = "verb"){
@@ -39,118 +41,121 @@ if(random_vocabulary['part_of_speech'] = "verb"){
     if(type == "う"){
       if(random_conjugation == "Negative"){ //Negative
         if(last_char == "う"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "いません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "いません"
         }else if(last_char == "つ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ちません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ちません"
         }else if(last_char == "る"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "りません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "りません"
         }else if(last_char == "む"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "みません";
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "みません";
         }else if(last_char == "ぶ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "びません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "びません"
         }else if(last_char == "ぬ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "にません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "にません"
         }else if(last_char == "く"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "きません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "きません"
         }else if(last_char == "ぐ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ぎません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ぎません"
         }else{ //す
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "しません"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "しません"
         }
       }else if(random_conjugation == "Past Negative"){
         if(last_char == "う"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "いませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "いませんでした"
         }else if(last_char == "つ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ちませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ちませんでした"
         }else if(last_char == "る"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "りませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "りませんでした"
         }else if(last_char == "む"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "みませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "みませんでした"
         }else if(last_char == "ぶ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "びませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "びませんでした"
         }else if(last_char == "ぬ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "にませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "にませんでした"
         }else if(last_char == "く"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "きませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "きませんでした"
         }else if(last_char == "ぐ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ぎませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ぎませんでした"
         }else{ //す
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "しませんでした"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "しませんでした"
         }
       }else if(random_conjugation == "Past"){
         if(last_char == "う"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "いました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "いました"
         }else if(last_char == "つ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ちました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ちました"
         }else if(last_char == "る"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "りました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "りました"
         }else if(last_char == "む"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "みました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "みました"
         }else if(last_char == "ぶ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "びました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "びました"
         }else if(last_char == "ぬ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "にました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "にました"
         }else if(last_char == "く"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "きました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "きました"
         }else if(last_char == "ぐ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ぎました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ぎました"
         }else{ //す
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "しました"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "しました"
         }
       }else{ // Present
         if(last_char == "う"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "います"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "います"
         }else if(last_char == "つ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ちます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ちます"
         }else if(last_char == "る"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ります"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ります"
         }else if(last_char == "む"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "みます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "みます"
         }else if(last_char == "ぶ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "びます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "びます"
         }else if(last_char == "ぬ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "にます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "にます"
         }else if(last_char == "く"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "きます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "きます"
         }else if(last_char == "ぐ"){
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ぎます"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ぎます"
         }else{ //す
-          document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "します"
+          document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "します"
         }
       }
     }else if(type == "る"){
       if(random_conjugation == "Negative"){ //Negative
-        document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ません";
+        document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ません";
       }else if(random_conjugation == "Past Negative"){
-        document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ませんでした";
+        document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ませんでした";
       }else if(random_conjugation == "Past"){
-        document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ました";
+        document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ました";
       }else{ // Present
-        document.getElementById("answer").innerText = dictionary_form.slice(0,-1) + "ます";
+        document.getElementById("answer").innerHTML = dictionary_form.slice(0,-1) + "ます";
       }
     }else{ //irregular
       if(last_char == "する"){
         if(random_conjugation == "Negative"){ //Negative
-        document.getElementById("type").innerText = verb.slice(0,-1) + "しません"
+        document.getElementById("type").innerHTML = verb.slice(0,-1) + "しません"
       }else if(random_conjugation == "Past Negative"){
-        document.getElementById("type").innerText = verb.slice(0,-1) + "しませんでした"
+        document.getElementById("type").innerHTML = verb.slice(0,-1) + "しませんでした"
       }else if(random_conjugation == "Past"){
-        document.getElementById("type").innerText = verb.slice(0,-1) + "しました"
+        document.getElementById("type").innerHTML = verb.slice(0,-1) + "しました"
       }else{ // Present
-        document.getElementById("type").innerText = verb.slice(0,-1) + "します"
+        document.getElementById("type").innerHTML = verb.slice(0,-1) + "します"
       }
       }else{　//くる
         if(random_conjugation== "Negative"){ //Negative
-          document.getElementById("type").innerText = verb.slice(0,-1) + "きません"
+          document.getElementById("type").innerHTML = verb.slice(0,-1) + "きません"
         }else if(random_conjugation == "Past Negative"){
-          document.getElementById("type").innerText = verb.slice(0,-1) + "きませんでした"
+          document.getElementById("type").innerHTML = verb.slice(0,-1) + "きませんでした"
         }else if(random_conjugation == "Past"){
-          document.getElementById("type").innerText = verb.slice(0,-1) + "きました"
+          document.getElementById("type").innerHTML = verb.slice(0,-1) + "きました"
         }else{ // Present
-          document.getElementById("type").innerText = verb.slice(0,-1) + "きます"
+          document.getElementById("type").innerHTML = verb.slice(0,-1) + "きます"
         }
       }
-      document.getElementById("type").style.display = "block";
     }
+    
+    function showDiv() {
+   		document.getElementById('answer').style.display = "block";
+	}
   }
 </script>
