@@ -175,6 +175,7 @@ function showDiv() {
   canvas.height = window.innerHeight * 2
   ;['touchstart', 'mousedown'].forEach(function (ev) {
     canvas.addEventListener(ev, function (e) {
+      e.preventDefault();
       var pressure = 0.1
       var x, y
       if (e.touches && e.touches[0] && typeof e.touches[0]["force"] !== "undefined") {
