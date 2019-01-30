@@ -1,4 +1,9 @@
 
+body
+{
+overflow:hidden;
+width:100%;
+}
 div.card {
  font-family: arial;
  font-size: 40px;
