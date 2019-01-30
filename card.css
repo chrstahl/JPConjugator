@@ -1,6 +1,4 @@
-body{
-height:100%;
-}
+<style>
 div.card {
  font-family: arial;
  font-size: 40px;
@@ -10,18 +8,16 @@ div.card {
  width: 100%;
  height: 50%;
  position: fixed;
- margin: auto;
  top:0;
-
+ z-index:1;
 }
+
 canvas {
-      position: fixed;
-      bottom: 0;
+      height: 100%;
       width: 100%;
-      height: 50%;
+      position: relative;
+      z-index:0;
+      background-color: gray;
     }
-    #info {
-      z-index: 1;
-      position: absolute;
-      bottom: 1em;
-    }
+    
+</style>
