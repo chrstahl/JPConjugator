@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" type="text/css" href="card.css" /> <meta name="apple-mobile-web-app-capable" content="yes"></head>
+<head>
+	<link rel="stylesheet" type="text/css" href="card.css" /> 
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
 <body onload="conjugate();">
 <div class="card">
   <br>
@@ -9,9 +13,17 @@
   <div id="question"  style="color:#569cd7"></div>
   <br>
   <div id ="answer" style="font-size:40px; color:#4ecab0; display:none;"></div>
-  <input type="button" name="answer" value="Answer" onclick="showDiv();" />
-  <input type="button" name="next" value="Next" onclick="conjugate();" />
-<label><input id="furigana" type="checkbox" onchange="toggleCheckbox(this)"/> Furigana</label>
+  <div id ="button_group_1">
+  	<div class="row">
+  		<div class="col"><button type="button" class="btn btn-primary btn-block btn-sm" name="answer" onclick="showDiv(true);">Answer</button></div>
+  		<div class="col"><button type="button" class="btn btn-primary btn-block btn-sm" name="next" onclick="conjugate();">Next</button></div>
+    </div>
+  </div>
+  <div id ="button_group_2">
+  <div class="row"><div class="col"><label>Options</label></div></div>
+  <div class="row"><div class="col"><label><input id="furigana" type="checkbox" onchange="toggleCheckbox(this)"/> Furigana</label></div></div>
+  </div>
+  
   
 </div>
 <canvas></canvas>
@@ -55,7 +67,7 @@ context.clearRect(0, 0, canvas.width, canvas.height);
   
 }
     
-function showDiv() {
+function showDiv(pressed) {
 var type = random_vocabulary['type'];
   var dictionary_form = random_vocabulary['dictionary_form'];
   var furigana_form = random_vocabulary['furigana'];
@@ -190,7 +202,9 @@ var type = random_vocabulary['type'];
         }
       }
   }
+  if(pressed == true){
 	document.getElementById('answer').style.display = "block";
+    }
 }
 
 function toggleCheckbox() {
@@ -279,8 +293,8 @@ showDiv();
         context.beginPath()
         context.moveTo(xc, yc)
       }
-      $force.innerHTML = 'force = ' + pressure
-      $touches.innerHTML = 'touchev = ' + (e.touches ? JSON.stringify(e.touches[0]) : '')
+     // $force.innerHTML = 'force = ' + pressure
+     // $touches.innerHTML = 'touchev = ' + (e.touches ? JSON.stringify(e.touches[0]) : '')
       e.preventDefault()
     })
   })
@@ -312,6 +326,13 @@ showDiv();
       lineWidth = 0
     })
   })
+  
+  // Listen for orientation changes
+window.addEventListener("orientationchange", function() {
+	// Announce the new orientation number
+	canvas.width = window.innerWidth * 2
+    canvas.height = window.innerHeight * 2
+}, false);
   
   
 </script>
