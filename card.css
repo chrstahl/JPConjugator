@@ -31,7 +31,11 @@ padding:10px;
 #button_group_2{
 position: absolute;
 top: 0;
+}
 
+#button_group_2 h1 {
+color:#569cd7;
+padding: 5;
 }
 
 canvas {
