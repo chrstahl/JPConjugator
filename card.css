@@ -19,6 +19,21 @@ div.card {
  z-index:1;
 }
 
+#button_group_1{
+
+bottom:5;
+width:100%;
+position: absolute;
+padding:10px;
+
+}
+
+#button_group_2{
+position: absolute;
+top: 5;
+
+}
+
 canvas {
       height: 100%;
       width: 100%;
