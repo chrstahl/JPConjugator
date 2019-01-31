@@ -21,7 +21,7 @@ div.card {
 
 #button_group_1{
 
-bottom:5;
+bottom:0;
 width:100%;
 position: absolute;
 padding:10px;
@@ -30,7 +30,7 @@ padding:10px;
 
 #button_group_2{
 position: absolute;
-top: 5;
+top: 0;
 
 }
 
