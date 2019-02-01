@@ -1,0 +1,793 @@
+{
+	"type": "う",
+	"meaning": "To go (<i>destination </i>に/へ)",
+	"furigana": "<ruby>行<rt>い</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "行く"
+}, {
+	"type": "う",
+	"meaning": "To go back; to return  (<i>destination </i>に/へ)",
+	"furigana": "<ruby>帰<rt>かえ</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "帰る"
+}, {
+	"type": "う",
+	"meaning": "To listen; to hear (~を)",
+	"furigana": "<ruby>聞<rt>き</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "聞く"
+}, {
+	"type": "う",
+	"meaning": "To drink (~を)",
+	"furigana": "<ruby>飲<rt>の</rt></ruby>む",
+	"part_of_speech": "verb",
+	"dictionary_form": "飲む"
+}, {
+	"type": "う",
+	"meaning": "To speak; to talk (<i>language </i>を/で)",
+	"furigana": "<ruby>話<rt>はな</rt></ruby>す",
+	"part_of_speech": "verb",
+	"dictionary_form": "話す"
+}, {
+	"type": "う",
+	"meaning": "To read (~を)",
+	"furigana": "<ruby>読<rt>よ</rt></ruby>む",
+	"part_of_speech": "verb",
+	"dictionary_form": "読む"
+}, {
+	"type": "る",
+	"meaning": "To get up",
+	"furigana": "<ruby>起<rt>お</rt></ruby>きる",
+	"part_of_speech": "verb",
+	"dictionary_form": "起きる"
+}, {
+	"type": "る",
+	"meaning": "To eat (~を)",
+	"furigana": "<ruby>食<rt>た</rt></ruby>べる",
+	"part_of_speech": "verb",
+	"dictionary_form": "食べる"
+}, {
+	"type": "る",
+	"meaning": "To sleep; to go to sleep",
+	"furigana": "<ruby>寝<rt>ね</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "寝る"
+}, {
+	"type": "る",
+	"meaning": "To see; to look at; to watch (~を)",
+	"furigana": "<ruby>見<rt>み</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "見る"
+}, {
+	"type": "irr",
+	"meaning": "To come (<i>destination</i> に/へ)",
+	"furigana": "<ruby>来<rt>く</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "来る"
+}, {
+	"type": "irr",
+	"meaning": "To do (~を)",
+	"furigana": "する",
+	"part_of_speech": "verb",
+	"dictionary_form": "する"
+}, {
+	"type": "irr",
+	"meaning": "To study (~を)",
+	"furigana": "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "勉強する"
+}, {
+	"type": "う",
+	"meaning": "To meet; to see (a person) (<i>person</i> に)",
+	"furigana": "<ruby>会<rt>あ</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "会う"
+}, {
+	"type": "う",
+	"meaning": "There is . . . (<i>place</i> に <i>thing</i> が)",
+	"furigana": "ある",
+	"part_of_speech": "verb",
+	"dictionary_form": "ある"
+}, {
+	"type": "う",
+	"meaning": "To buy (~を)",
+	"furigana": "<ruby>買<rt>か</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "買う"
+}, {
+	"type": "う",
+	"meaning": "To write (<i>person</i> に <i>thing</i> を)",
+	"furigana": "<ruby>書<rt>か</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "書く"
+}, {
+	"type": "う",
+	"meaning": "To take (a picture) (~を)",
+	"furigana": "<ruby>撮<rt>と</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "撮る"
+}, {
+	"type": "う",
+	"meaning": "To wait (~を)",
+	"furigana": "<ruby>待<rt>ま</rt></ruby>つ",
+	"part_of_speech": "verb",
+	"dictionary_form": "待つ"
+}, {
+	"type": "う",
+	"meaning": "To understand (~が)",
+	"furigana": "わかる",
+	"part_of_speech": "verb",
+	"dictionary_form": "わかる"
+}, {
+	"type": "る",
+	"meaning": "(A person) is in . . . ; stays at . . . (<i>place</i> に <i>person</i> が)",
+	"furigana": "いる",
+	"part_of_speech": "verb",
+	"dictionary_form": "いる"
+}, {
+	"type": "う",
+	"meaning": "To swim",
+	"furigana": "<ruby>泳<rt>およ</rt></ruby>ぐ",
+	"part_of_speech": "verb",
+	"dictionary_form": "泳ぐ"
+}, {
+	"type": "う",
+	"meaning": "To ask (<i>person</i> に)",
+	"furigana": "<ruby>聞<rt>き</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "聞く"
+}, {
+	"type": "う",
+	"meaning": "To ride; to board (~に)",
+	"furigana": "<ruby>乗<rt>の</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "乗る"
+}, {
+	"type": "う",
+	"meaning": "To do; to perform (~を)",
+	"furigana": "やる",
+	"part_of_speech": "verb",
+	"dictionary_form": "やる"
+}, {
+	"type": "る",
+	"meaning": "To go out",
+	"furigana": "<ruby>出<rt>で</rt></ruby>かける",
+	"part_of_speech": "verb",
+	"dictionary_form": "出かける"
+}, {
+	"type": "う",
+	"meaning": "To play; to spend time pleasantly",
+	"furigana": "<ruby>遊<rt>あそ</rt></ruby>ぶ",
+	"part_of_speech": "verb",
+	"dictionary_form": "遊ぶ"
+}, {
+	"type": "う",
+	"meaning": "To hurry",
+	"furigana": "<ruby>急<rt>いそ</rt></ruby>ぐ",
+	"part_of_speech": "verb",
+	"dictionary_form": "急ぐ"
+}, {
+	"type": "う",
+	"meaning": "To take a bath",
+	"furigana": "お<ruby>風<rt>ふ</rt></ruby><ruby>呂<rt>ろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "お風呂に入る"
+}, {
+	"type": "う",
+	"meaning": "To return (a thing) (<i>person</i> に <i>thing</i> を)",
+	"furigana": "<ruby>返<rt>かえ</rt></ruby>す",
+	"part_of_speech": "verb",
+	"dictionary_form": "返す"
+}, {
+	"type": "う",
+	"meaning": "To turn off; to erase (~を)",
+	"furigana": "<ruby>消<rt>け</rt></ruby>す",
+	"part_of_speech": "verb",
+	"dictionary_form": "消す"
+}, {
+	"type": "う",
+	"meaning": "To die",
+	"furigana": "<ruby>死<rt>し</rt></ruby>ぬ",
+	"part_of_speech": "verb",
+	"dictionary_form": "死ぬ"
+}, {
+	"type": "う",
+	"meaning": "To sit down (<i>seat</i> に)",
+	"furigana": "<ruby>座<rt>すわ</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "座る"
+}, {
+	"type": "う",
+	"meaning": "To stand up",
+	"furigana": "<ruby>立<rt>た</rt></ruby>つ",
+	"part_of_speech": "verb",
+	"dictionary_form": "立つ"
+}, {
+	"type": "う",
+	"meaning": "To smoke",
+	"furigana": "たばこを<ruby>吸<rt>す</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "たばこを吸う"
+}, {
+	"type": "う",
+	"meaning": "To use (~を)",
+	"furigana": "<ruby>使<rt>つか</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "使う"
+}, {
+	"type": "う",
+	"meaning": "To help (<i>person/task</i> を)",
+	"furigana": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>つだ</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "手伝う "
+}, {
+	"type": "う",
+	"meaning": "To enter (~に)",
+	"furigana": "<ruby>入<rt>はい</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "入る"
+}, {
+	"type": "う",
+	"meaning": "To carry; to hold (~を)",
+	"furigana": "<ruby>持<rt>も</rt></ruby>つ",
+	"part_of_speech": "verb",
+	"dictionary_form": "持つ"
+}, {
+	"type": "う",
+	"meaning": "(1) to be absent (from . . . ) (~を)<div>(2) to rest</div>",
+	"furigana": "<ruby>休<rt>やす</rt></ruby>む",
+	"part_of_speech": "verb",
+	"dictionary_form": "休む"
+}, {
+	"type": "る",
+	"meaning": "To open (something) (~を)",
+	"furigana": "<ruby>開<rt>あ</rt></ruby>ける",
+	"part_of_speech": "verb",
+	"dictionary_form": "開ける"
+}, {
+	"type": "る",
+	"meaning": "To teach; to instruct (<i>person</i> に <i>thing</i> を)",
+	"furigana": "<ruby>教<rt>おし</rt></ruby>える",
+	"part_of_speech": "verb",
+	"dictionary_form": "教える"
+}, {
+	"type": "る",
+	"meaning": "To get off (~を)",
+	"furigana": "<ruby>降<rt>お</rt></ruby>りる",
+	"part_of_speech": "verb",
+	"dictionary_form": "降りる"
+}, {
+	"type": "る",
+	"meaning": "To borrow (<i>person</i> に <i>thing</i> を)",
+	"furigana": "<ruby>借<rt>か</rt></ruby>りる",
+	"part_of_speech": "verb",
+	"dictionary_form": "借りる"
+}, {
+	"type": "る",
+	"meaning": "To close (something) (~を)",
+	"furigana": "<ruby>閉<rt>し</rt></ruby>める",
+	"part_of_speech": "verb",
+	"dictionary_form": "閉める"
+}, {
+	"type": "る",
+	"meaning": "To take a shower",
+	"furigana": "シャワーを<ruby>浴<rt>あ</rt></ruby>びる",
+	"part_of_speech": "verb",
+	"dictionary_form": "シャワーを浴びる"
+}, {
+	"type": "る",
+	"meaning": "To turn on (~を)",
+	"furigana": "つける",
+	"part_of_speech": "verb",
+	"dictionary_form": "つける"
+}, {
+	"type": "る",
+	"meaning": "To make a phone call (~に)",
+	"furigana": "<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>をかける",
+	"part_of_speech": "verb",
+	"dictionary_form": "電話をかける"
+}, {
+	"type": "る",
+	"meaning": "To forget; to leave behind (~を)",
+	"furigana": "<ruby>忘<rt>わす</rt></ruby>れる",
+	"part_of_speech": "verb",
+	"dictionary_form": "忘れる"
+}, {
+	"type": "irr",
+	"meaning": "To bring (a person) (~を)",
+	"furigana": "<ruby>連<rt>つ</rt></ruby>れてくる",
+	"part_of_speech": "verb",
+	"dictionary_form": "連れてくる"
+}, {
+	"type": "irr",
+	"meaning": "To bring (a thing) (~を)",
+	"furigana": "<ruby>持<rt>も</rt></ruby>ってくる",
+	"part_of_speech": "verb",
+	"dictionary_form": "持ってくる"
+}, {
+	"type": "う",
+	"meaning": "To sing (~を)",
+	"furigana": "<ruby>歌<rt>うた</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "歌う"
+}, {
+	"type": "う",
+	"meaning": "To put on (a hat) (~を)",
+	"furigana": "かぶる",
+	"part_of_speech": "verb",
+	"dictionary_form": "かぶる"
+}, {
+	"type": "う",
+	"meaning": "To get to know (~を)",
+	"furigana": "<ruby>知<rt>し</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "知る"
+}, {
+	"type": "う",
+	"meaning": "I know",
+	"furigana": "<ruby>知<rt>し</rt></ruby>っています",
+	"part_of_speech": "verb",
+	"dictionary_form": "知っています"
+}, {
+	"type": "う",
+	"meaning": "I do not know",
+	"furigana": "<ruby>知<rt>し</rt></ruby>りません",
+	"part_of_speech": "verb",
+	"dictionary_form": "知りません"
+}, {
+	"type": "う",
+	"meaning": "To live (~にすんでいます)",
+	"furigana": "<ruby>住<rt>す</rt></ruby>む",
+	"part_of_speech": "verb",
+	"dictionary_form": "住む"
+}, {
+	"type": "う",
+	"meaning": "To put on (items below your waist) (~を)",
+	"furigana": "はく",
+	"part_of_speech": "verb",
+	"dictionary_form": "はく"
+}, {
+	"type": "う",
+	"meaning": "To gain weight",
+	"furigana": "<ruby>太<rt>ふと</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "太る"
+}, {
+	"type": "う",
+	"meaning": "To be on the heavy side",
+	"furigana": "<ruby>太<rt>ふと</rt></ruby>っています",
+	"part_of_speech": "verb",
+	"dictionary_form": "太っています"
+}, {
+	"type": "る",
+	"meaning": "To put on (glasses)",
+	"furigana": "(めがねを) かける",
+	"part_of_speech": "verb",
+	"dictionary_form": "(めがねを) かける"
+}, {
+	"type": "る",
+	"meaning": "To put on (clothes above your waist) (~を)",
+	"furigana": "<ruby>着<rt>き</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "着る"
+}, {
+	"type": "る",
+	"meaning": "To work for (~につとめています)",
+	"furigana": "<ruby>勤<rt>つと</rt></ruby>める",
+	"part_of_speech": "verb",
+	"dictionary_form": "勤める"
+}, {
+	"type": "る",
+	"meaning": "To lose weight",
+	"furigana": "やせる",
+	"part_of_speech": "verb",
+	"dictionary_form": "やせる"
+}, {
+	"type": "る",
+	"meaning": "To be thin",
+	"furigana": "やせています",
+	"part_of_speech": "verb",
+	"dictionary_form": "やせています"
+}, {
+	"type": "irr",
+	"meaning": "To get married (~と)",
+	"furigana": "<ruby>結<rt>けっ</rt></ruby><ruby>婚<rt>こん</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "結婚する"
+}, {
+	"type": "う",
+	"meaning": "It rains",
+	"furigana": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "雨が降る"
+}, {
+	"type": "う",
+	"meaning": "To wash (~を)",
+	"furigana": "<ruby>洗<rt>あら</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "洗う"
+}, {
+	"type": "う",
+	"meaning": "To say",
+	"furigana": "<ruby>言<rt>い</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "言う"
+}, {
+	"type": "う",
+	"meaning": "To need (~が)",
+	"furigana": "いる",
+	"part_of_speech": "verb",
+	"dictionary_form": "いる"
+}, {
+	"type": "う",
+	"meaning": "To be late",
+	"furigana": "<ruby>遅<rt>おそ</rt></ruby>くなる",
+	"part_of_speech": "verb",
+	"dictionary_form": "遅くなる"
+}, {
+	"type": "う",
+	"meaning": "To think",
+	"furigana": "<ruby>思<rt>おも</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "思う"
+}, {
+	"type": "う",
+	"meaning": "To cut (~を)",
+	"furigana": "<ruby>切<rt>き</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "切る"
+}, {
+	"type": "う",
+	"meaning": "To make (~を)",
+	"furigana": "<ruby>作<rt>つく</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "作る"
+}, {
+	"type": "う",
+	"meaning": "To take (a thing) (~を)",
+	"furigana": "<ruby>持<rt>も</rt></ruby>っていく",
+	"part_of_speech": "verb",
+	"dictionary_form": "持っていく"
+}, {
+	"type": "る",
+	"meaning": "To stare (at . . . ) (~を)",
+	"furigana": "じろじろ<ruby>見<rt>み</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "じろじろ見る"
+}, {
+	"type": "る",
+	"meaning": "To throw away (~を)",
+	"furigana": "<ruby>捨<rt>す</rt></ruby>てる",
+	"part_of_speech": "verb",
+	"dictionary_form": "捨てる"
+}, {
+	"type": "る",
+	"meaning": "To begin (~を)",
+	"furigana": "<ruby>始<rt>はじ</rt></ruby>める",
+	"part_of_speech": "verb",
+	"dictionary_form": "始める"
+}, {
+	"type": "irr",
+	"meaning": "To drive (~を)",
+	"furigana": "<ruby>運<rt>うん</rt></ruby><ruby>転<rt>てん</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "運転する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To do laundry (~を)<br>",
+	"furigana": "<ruby>洗<rt>せん</rt></ruby><ruby>濯<rt>たく</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "洗濯する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To clean (~を)",
+	"furigana": "<ruby>掃<rt>そう</rt></ruby><ruby>除<rt>じ</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "掃除する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To call (~に)",
+	"furigana": "<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "電話する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To cook",
+	"furigana": "<ruby>料<rt>りょう</rt></ruby><ruby>理<rt>り</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "料理する"
+}, {
+	"type": "う",
+	"meaning": "To dance",
+	"furigana": "<ruby>踊<rt>おど</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "踊る"
+}, {
+	"type": "う",
+	"meaning": "(Something) ends (~が)",
+	"furigana": "<ruby>終<rt>お</rt></ruby>わる",
+	"part_of_speech": "verb",
+	"dictionary_form": "終わる"
+}, {
+	"type": "う",
+	"meaning": "To be popular",
+	"furigana": "<ruby>人<rt>にん</rt></ruby><ruby>気<rt>き</rt></ruby>がある",
+	"part_of_speech": "verb",
+	"dictionary_form": "人気がある"
+}, {
+	"type": "う",
+	"meaning": "(Something) begins (~が)",
+	"furigana": "<ruby>始<rt>はじ</rt></ruby>まる",
+	"part_of_speech": "verb",
+	"dictionary_form": "始まる"
+}, {
+	"type": "う",
+	"meaning": "To play (a string instrument or piano) (~を)",
+	"furigana": "<ruby>弾<rt>ひ</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "弾く"
+}, {
+	"type": "う",
+	"meaning": "To get (from somebody) (<i>person</i> に <i>thing</i> を)",
+	"furigana": "もらう",
+	"part_of_speech": "verb",
+	"dictionary_form": "もらう"
+}, {
+	"type": "る",
+	"meaning": "To memorize (~を)",
+	"furigana": "<ruby>覚<rt>おぼ</rt></ruby>える",
+	"part_of_speech": "verb",
+	"dictionary_form": "覚える"
+}, {
+	"type": "る",
+	"meaning": "(1) to appear; to attend (~に) (2) to exit (~を)",
+	"furigana": "<ruby>出<rt>で</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "出る"
+}, {
+	"type": "irr<br>",
+	"meaning": "To do physical exercises",
+	"furigana": "<ruby>運<rt>うん</rt></ruby><ruby>動<rt>どう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "運動する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To take a walk",
+	"furigana": "<ruby>散<rt>さん</rt></ruby><ruby>歩<rt>ぽ</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "散歩する"
+}, {
+	"type": "う",
+	"meaning": "To take (amount of time/money) (<i>no particle</i>)",
+	"furigana": "かかる",
+	"part_of_speech": "verb",
+	"dictionary_form": "かかる"
+}, {
+	"type": "う",
+	"meaning": "To stay (at a hotel, etc.) (~に)",
+	"furigana": "<ruby>泊<rt>と</rt></ruby>まる",
+	"part_of_speech": "verb",
+	"dictionary_form": "泊まる"
+}, {
+	"type": "う",
+	"meaning": "To become",
+	"furigana": "なる",
+	"part_of_speech": "verb",
+	"dictionary_form": "なる"
+}, {
+	"type": "う",
+	"meaning": "To pay (~を)",
+	"furigana": "<ruby>払<rt>はら</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "払う"
+}, {
+	"type": "る",
+	"meaning": "To decide (~を)",
+	"furigana": "<ruby>決<rt>き</rt></ruby>める",
+	"part_of_speech": "verb",
+	"dictionary_form": "決める"
+}, {
+	"type": "irr<br>",
+	"meaning": "To travel",
+	"furigana": "<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "旅行する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To practice (~を)",
+	"furigana": "<ruby>練<rt>れん</rt></ruby><ruby>習<rt>しゅう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "練習する"
+}, {
+	"type": "う",
+	"meaning": "To tell a lie",
+	"furigana": "うそをつく",
+	"part_of_speech": "verb",
+	"dictionary_form": "うそをつく"
+}, {
+	"type": "う",
+	"meaning": "To become hungry",
+	"furigana": "おなかがすく",
+	"part_of_speech": "verb",
+	"dictionary_form": "おなかがすく"
+}, {
+	"type": "う",
+	"meaning": "To own (a pet) (~を)",
+	"furigana": "<ruby>飼<rt>か</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "飼う"
+}, {
+	"type": "う",
+	"meaning": "To cut (classes) (~を)",
+	"furigana": "サボル",
+	"part_of_speech": "verb",
+	"dictionary_form": "サボル"
+}, {
+	"type": "う",
+	"meaning": "To take (a class); to get (a grade) (~を)",
+	"furigana": "<ruby>取<rt>と</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "取る"
+}, {
+	"type": "う",
+	"meaning": "To learn (~を)",
+	"furigana": "<ruby>習<rt>なら</rt></ruby>う",
+	"part_of_speech": "verb",
+	"dictionary_form": "習う"
+}, {
+	"type": "う",
+	"meaning": "To climb (<i>place</i> に)",
+	"furigana": "<ruby>登<rt>のぼ</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "登る"
+}, {
+	"type": "う",
+	"meaning": "To work",
+	"furigana": "<ruby>働<rt>はたら</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "働く"
+}, {
+	"type": "る",
+	"meaning": "To get tired",
+	"furigana": "<ruby>疲<rt>つか</rt></ruby>れる",
+	"part_of_speech": "verb",
+	"dictionary_form": "疲れる"
+}, {
+	"type": "る",
+	"meaning": "To quit (~を)",
+	"furigana": "やめる",
+	"part_of_speech": "verb",
+	"dictionary_form": "やめる"
+}, {
+	"type": "irr<br>",
+	"meaning": "To have a fight; to quarrel",
+	"furigana": "けんかする",
+	"part_of_speech": "verb",
+	"dictionary_form": "けんかする"
+}, {
+	"type": "irr<br>",
+	"meaning": "To introduce (<i>person</i> に <i>person</i> を)",
+	"furigana": "<ruby>紹<rt>しょう</rt></ruby><ruby>介<rt>かい</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "紹介する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To go on a diet",
+	"furigana": "ダイエットする",
+	"part_of_speech": "verb",
+	"dictionary_form": "ダイエットする"
+}, {
+	"type": "irr<br>",
+	"meaning": "To be late (for an appointment) (~に)",
+	"furigana": "<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>こく</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "遅刻する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To study abroad (<i>place</i> に)",
+	"furigana": "<ruby>留<rt>りゅう</rt></ruby><ruby>学<rt>がく</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "留学する"
+}, {
+	"type": "う",
+	"meaning": "To walk",
+	"furigana": "<ruby>歩<rt>ある</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "歩く"
+}, {
+	"type": "う",
+	"meaning": "To catch a cold",
+	"furigana": "<ruby>風<rt>か</rt></ruby><ruby>邪<rt>ぜ</rt></ruby>をひく",
+	"part_of_speech": "verb",
+	"dictionary_form": "風邪をひく"
+}, {
+	"type": "う",
+	"meaning": "To be interested (in . . . ) (<i>topic</i> に)",
+	"furigana": "<ruby>興<rt>きょう</rt></ruby><ruby>味<rt>み</rt></ruby>がある",
+	"part_of_speech": "verb",
+	"dictionary_form": "興味がある"
+}, {
+	"type": "う",
+	"meaning": "To lose (~を)",
+	"furigana": "なくす",
+	"part_of_speech": "verb",
+	"dictionary_form": "なくす"
+}, {
+	"type": "う",
+	"meaning": "To have a fever",
+	"furigana": "<ruby>熱<rt>ねつ</rt></ruby>がある",
+	"part_of_speech": "verb",
+	"dictionary_form": "熱がある"
+}, {
+	"type": "う",
+	"meaning": "To become thirsty",
+	"furigana": "のどが<ruby>渇<rt>かわ</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "のどが渇く"
+}, {
+	"type": "る",
+	"meaning": "To cough",
+	"furigana": "せきが<ruby>出<rt>で</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "せきが出る"
+}, {
+	"type": "る",
+	"meaning": "To break up; to separate (<i>person</i> と)",
+	"furigana": "<ruby>別<rt>わか</rt></ruby>れる",
+	"part_of_speech": "verb",
+	"dictionary_form": "別れる"
+}, {
+	"type": "irr<br>",
+	"meaning": "To get nervous",
+	"furigana": "<ruby>緊<rt>きん</rt></ruby><ruby>張<rt>ちょう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "緊張する"
+}, {
+	"type": "irr<br>",
+	"meaning": "To worry",
+	"furigana": "<ruby>心<rt>しん</rt></ruby><ruby>配<rt>ぱい</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "心配する"
+}, {
+	"type": "う",
+	"meaning": "To knit (~を)",
+	"furigana": "<ruby>編<rt>あ</rt></ruby>む",
+	"part_of_speech": "verb",
+	"dictionary_form": "編む"
+}, {
+	"type": "う",
+	"meaning": "To lend; to rent (<i>person</i> に <i>thing</i> を)",
+	"furigana": "<ruby>貸<rt>か</rt></ruby>す",
+	"part_of_speech": "verb",
+	"dictionary_form": "貸す"
+}, {
+	"type": "う",
+	"meaning": "To do one’s best; to try hard",
+	"furigana": "<ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ば</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "頑張る"
+}, {
+	"type": "う",
+	"meaning": "To cry",
+	"furigana": "<ruby>泣<rt>な</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "泣く"
+}, {
+	"type": "う",
+	"meaning": "To brush (teeth); to polish (~を)",
+	"furigana": "<ruby>磨<rt>みが</rt></ruby>く",
+	"part_of_speech": "verb",
+	"dictionary_form": "磨く"
+}, {
+	"type": "う",
+	"meaning": "To keep a promise",
+	"furigana": "<ruby>約<rt>やく</rt></ruby><ruby>束<rt>そく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る",
+	"part_of_speech": "verb",
+	"dictionary_form": "約束を守る"
+}, {
+	"type": "irr",
+	"meaning": "To be moved/touched (by . . . ) (~に)",
+	"furigana": "<ruby>感<rt>かん</rt></ruby><ruby>動<rt>どう</rt></ruby>する",
+	"part_of_speech": "verb",
+	"dictionary_form": "感動する"
+}
