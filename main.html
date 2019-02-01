@@ -31,6 +31,7 @@
 <script>
 var vocabulary = vocab;
 var furigana_on = false;
+var show_next = false;
 var conjugation = ["Present", "Negative", "Past", "Past Negative"];   
   var random_conjugation = conjugation[Math.floor(Math.random() * conjugation.length)];
   var random_vocabulary = vocabulary[Math.floor(Math.random() * vocabulary.length)];
@@ -319,6 +320,21 @@ showDiv();
       document.body.style.display = originalBodyStyle;
     }, 10);
   });
+	// Execute a function when the user releases a key on the keyboard
+window.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+	  if(show_next == false){
+    		showDiv();
+		  show_next = true;
+	  }else{
+		  conjugate();
+		  show_next = false;
+	  }
+  }
 </script>
 </body>
 </html>
