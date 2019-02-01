@@ -19,23 +19,6 @@ div.card {
  z-index:1;
 }
 
-@media only screen and (max-height: 900px) {
-  div.card {
-    font-size: 20px;
-  }
-  div dictionary{
-	font-size:20px; 
-	color:#4ecab0; 
-	display:none;
-  }
-
-  div answer{
-	font-size:20px; 
-	color:#4ecab0; 
-	display:none;
-  }
-}
-
 #dictionary{
 font-size:40px; 
 color:#4ecab0; 
@@ -80,5 +63,21 @@ font-family: arial;
 font-size: 20px;
 color:#569cd7;
 
+}
+@media only screen and (max-height: 900px) {
+  div.card {
+    font-size: 20px;
+  }
+  div dictionary{
+	font-size:20px; 
+	color:#4ecab0; 
+	display:none;
+  }
+
+  div answer{
+	font-size:20px; 
+	color:#4ecab0; 
+	display:none;
+  }
 }
 </style>
