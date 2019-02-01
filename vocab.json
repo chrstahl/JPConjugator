@@ -324,12 +324,6 @@ var vocab = [{
 	"dictionary_form": "知る"
 }, {
 	"type": "う",
-	"meaning": "I know",
-	"furigana": "<ruby>知<rt>し</rt></ruby>っています",
-	"part_of_speech": "verb",
-	"dictionary_form": "知っています"
-}, {
-	"type": "う",
 	"meaning": "I do not know",
 	"furigana": "<ruby>知<rt>し</rt></ruby>りません",
 	"part_of_speech": "verb",
@@ -352,12 +346,6 @@ var vocab = [{
 	"furigana": "<ruby>太<rt>ふと</rt></ruby>る",
 	"part_of_speech": "verb",
 	"dictionary_form": "太る"
-}, {
-	"type": "う",
-	"meaning": "To be on the heavy side",
-	"furigana": "<ruby>太<rt>ふと</rt></ruby>っています",
-	"part_of_speech": "verb",
-	"dictionary_form": "太っています"
 }, {
 	"type": "る",
 	"meaning": "To put on (glasses)",
@@ -382,12 +370,6 @@ var vocab = [{
 	"furigana": "やせる",
 	"part_of_speech": "verb",
 	"dictionary_form": "やせる"
-}, {
-	"type": "る",
-	"meaning": "To be thin",
-	"furigana": "やせています",
-	"part_of_speech": "verb",
-	"dictionary_form": "やせています"
 }, {
 	"type": "irr",
 	"meaning": "To get married (~と)",
