@@ -1,4 +1,4 @@
-{
+var vocab = [{
 	"type": "う",
 	"meaning": "To go (<i>destination </i>に/へ)",
 	"furigana": "<ruby>行<rt>い</rt></ruby>く",
@@ -790,4 +790,4 @@
 	"furigana": "<ruby>感<rt>かん</rt></ruby><ruby>動<rt>どう</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "感動する"
-}
+}]
