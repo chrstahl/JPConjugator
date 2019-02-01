@@ -951,7 +951,7 @@ var type = random_vocabulary['type'];
         }
       }else{ //irregular
       	var ending = dictionary_form.substr(-2);
-        if(endingr == "する"){
+        if(ending == "する"){
           if(random_conjugation == "Negative"){ //Negative
           	document.getElementById("answer").innerHTML = word_form.slice(0,-2) + "しません"
           }else if(random_conjugation == "Past Negative"){
