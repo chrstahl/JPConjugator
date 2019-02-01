@@ -68,13 +68,13 @@ color:#569cd7;
   div.card {
     font-size: 20px;
   }
-  div dictionary{
+  #dictionary{
 	font-size:20px; 
 	color:#4ecab0; 
 	display:none;
   }
 
-  div answer{
+  #answer{
 	font-size:20px; 
 	color:#4ecab0; 
 	display:none;
