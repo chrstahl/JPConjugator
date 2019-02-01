@@ -12,6 +12,7 @@
   <br>
   <div id="question"  style="color:#569cd7"></div>
   <br>
+  <div id ="dictionary" style="font-size:40px; color:#4ecab0; display:none;"></div>
   <div id ="answer" style="font-size:40px; color:#4ecab0; display:none;"></div>
   <div id ="button_group_1">
   	<div class="row">
@@ -234,7 +235,7 @@ var vocabulary = [{
 }, {
 	"type": "う",
 	"meaning": "To smoke",
-	"furigana": "たばこを <ruby>吸<rt>す</rt></ruby>う",
+	"furigana": "たばこを<ruby>吸<rt>す</rt></ruby>う",
 	"part_of_speech": "verb",
 	"dictionary_form": "たばこを吸う"
 }, {
@@ -828,6 +829,7 @@ var conjugation = ["Present", "Negative", "Past", "Past Negative"];
 
 function conjugate(){
   document.getElementById('answer').style.display = "None";
+  document.getElementById('dictionary').style.display = "None";
   const context = canvas.getContext('2d');
 
 context.clearRect(0, 0, canvas.width, canvas.height);
@@ -976,6 +978,8 @@ var type = random_vocabulary['type'];
   }
   if(pressed == true){
 	document.getElementById('answer').style.display = "block";
+    document.getElementById('dictionary').innerHTML = "Dictionary: " + dictionary_form;
+	document.getElementById('dictionary').style.display = "block";
     }
 }
 
