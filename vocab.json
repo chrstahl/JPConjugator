@@ -455,25 +455,25 @@ var vocab = [{
 	"part_of_speech": "verb",
 	"dictionary_form": "運転する"
 }, {
-	"type": "irr<br>",
-	"meaning": "To do laundry (~を)<br>",
+	"type": "irr",
+	"meaning": "To do laundry (~を)",
 	"furigana": "<ruby>洗<rt>せん</rt></ruby><ruby>濯<rt>たく</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "洗濯する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To clean (~を)",
 	"furigana": "<ruby>掃<rt>そう</rt></ruby><ruby>除<rt>じ</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "掃除する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To call (~に)",
 	"furigana": "<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "電話する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To cook",
 	"furigana": "<ruby>料<rt>りょう</rt></ruby><ruby>理<rt>り</rt></ruby>する",
 	"part_of_speech": "verb",
@@ -527,13 +527,13 @@ var vocab = [{
 	"part_of_speech": "verb",
 	"dictionary_form": "出る"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To do physical exercises",
 	"furigana": "<ruby>運<rt>うん</rt></ruby><ruby>動<rt>どう</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "運動する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To take a walk",
 	"furigana": "<ruby>散<rt>さん</rt></ruby><ruby>歩<rt>ぽ</rt></ruby>する",
 	"part_of_speech": "verb",
@@ -569,13 +569,13 @@ var vocab = [{
 	"part_of_speech": "verb",
 	"dictionary_form": "決める"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To travel",
 	"furigana": "<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "旅行する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To practice (~を)",
 	"furigana": "<ruby>練<rt>れん</rt></ruby><ruby>習<rt>しゅう</rt></ruby>する",
 	"part_of_speech": "verb",
@@ -641,31 +641,31 @@ var vocab = [{
 	"part_of_speech": "verb",
 	"dictionary_form": "やめる"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To have a fight; to quarrel",
 	"furigana": "けんかする",
 	"part_of_speech": "verb",
 	"dictionary_form": "けんかする"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To introduce (<i>person</i> に <i>person</i> を)",
 	"furigana": "<ruby>紹<rt>しょう</rt></ruby><ruby>介<rt>かい</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "紹介する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To go on a diet",
 	"furigana": "ダイエットする",
 	"part_of_speech": "verb",
 	"dictionary_form": "ダイエットする"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To be late (for an appointment) (~に)",
 	"furigana": "<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>こく</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "遅刻する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To study abroad (<i>place</i> に)",
 	"furigana": "<ruby>留<rt>りゅう</rt></ruby><ruby>学<rt>がく</rt></ruby>する",
 	"part_of_speech": "verb",
@@ -719,13 +719,13 @@ var vocab = [{
 	"part_of_speech": "verb",
 	"dictionary_form": "別れる"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To get nervous",
 	"furigana": "<ruby>緊<rt>きん</rt></ruby><ruby>張<rt>ちょう</rt></ruby>する",
 	"part_of_speech": "verb",
 	"dictionary_form": "緊張する"
 }, {
-	"type": "irr<br>",
+	"type": "irr",
 	"meaning": "To worry",
 	"furigana": "<ruby>心<rt>しん</rt></ruby><ruby>配<rt>ぱい</rt></ruby>する",
 	"part_of_speech": "verb",
